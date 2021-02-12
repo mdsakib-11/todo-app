@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+  }
+
+  section#mainSection {
+      width: 800px;
+      background: #7887;
+      height: 800px;
+      text-align: center;
+      padding-top: 45px;
+      margin: auto;
+      border-radius: 10px;
+      font-family: 'Poppins', sans-serif;
+      overflow:scroll;
+     
+      
+  }
+  
+  .container {
+      width: 500px;
+      text-align: center;
+      margin: auto;
+  }
+  
+  .container input {
+      width: 49%;
+      height: 35px;
+      border: none;
+      outline: none;
+      border-radius: 25px;
+      color: #999;
+      font-size: 20px;
+      padding: 10px;
+  }
+  .container button {
+      width: 75px;
+      height: 32px;
+      border: none;
+      border-radius: 3px;
+      margin-left: 40px;
+      text-align: center;
+      outline: none;
+      cursor: pointer;
+      margin-bottom: 6px;
+      background: #93ef93;
+      color: white;
+  }
+  
+  section#mainSection h2 {
+      color: white;
+      font-size: 28px;
+      text-align: center;
+      padding-bottom: 20px;
+      text-transform: uppercase;
+  }
+  .inputD{
+    color: White;
+    font-size: 22px;
+    margin-top: 15px;
+    transition: 3s;
+    margin-left: -40px;
+    background: #ddd;
+    border-radius: 20px;
+    width: 500px;
+    border: none;
+    outline: none;
+    height: 36px;
+    display: grid;
+    place-items:center;
+  
+  }
+  
+  .buuton-style{
+  
+      position: relative;
+      top: 55px;
+      left:235px;
+      width: 100px;
+      padding: 5px;
+  
+  }
+  
+#addToDo{
+    width: 50px;
+    position: relative;
+    right: 32px;
+    bottom: 2px;
+    background: #444;
+}
